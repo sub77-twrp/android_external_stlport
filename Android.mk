@@ -13,7 +13,8 @@ STLPORT_WHITELIST := \
     shamu \
     tilapia \
     find7 \
-    find7op
+    find7op \
+    matissewifi
 
 ifneq (,$(filter $(TARGET_DEVICE),$(STLPORT_WHITELIST)))
 
